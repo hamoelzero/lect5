@@ -1,0 +1,13 @@
+The backdrop-filter property is used to apply a graphical effect to the area behind an element.
+
+values >>>
+blur()
+brightness()
+contrast()
+drop-shadow()
+grayscale()
+hue-rotate()
+invert()
+opacity()
+sepia()
+saturate()
