@@ -76,7 +76,7 @@ window.addEventListener("scroll", function () {
   fadeFromLeft.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("fadeFromLeft-out", "fadeFromLeft");
     } else {
       item.classList.replace("fadeFromLeft", "fadeFromLeft-out");
@@ -86,7 +86,7 @@ window.addEventListener("scroll", function () {
   fadeFromRight.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       // console.log(item);
       item.classList.replace("fadeFromRight-out", "fadeFromRight");
     } else {
@@ -97,7 +97,7 @@ window.addEventListener("scroll", function () {
   flipFromRight.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("flipFromRight-out", "flipFromRight");
     } else {
       item.classList.replace("flipFromRight", "flipFromRight-out");
@@ -107,7 +107,7 @@ window.addEventListener("scroll", function () {
   fadeFromBottom.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("fadeFromBottom-out", "fadeFromBottom");
     } else {
       item.classList.replace("fadeFromBottom", "fadeFromBottom-out");
@@ -117,7 +117,7 @@ window.addEventListener("scroll", function () {
   scaleFade.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("scaleFade-out", "scaleFade");
     } else {
       item.classList.replace("scaleFade", "scaleFade-out");
@@ -127,7 +127,7 @@ window.addEventListener("scroll", function () {
   flipin.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("flip-out", "flip");
     } else {
       item.classList.replace("flip", "flip-out");
@@ -137,7 +137,7 @@ window.addEventListener("scroll", function () {
   flipFromLeft.forEach((item) => {
     const rect = item.getBoundingClientRect();
     const elementTop = rect.top + window.scrollY;
-    if (window.scrollY > elementTop - 650) {
+    if (window.scrollY > elementTop - 700) {
       item.classList.replace("flipFromLeft-out", "flipFromLeft");
     } else {
       item.classList.replace("flipFromLeft", "flipFromLeft-out");
